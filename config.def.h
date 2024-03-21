@@ -31,6 +31,8 @@ static const char *const autostart[] = {
 	"xset", "-dpms", NULL,
 	"xinput", "set-prop", "8", "libinput Accel Profile Enabled", "0", "1", "0", NULL,
 	"sh", "-c", "while :; do xsetroot -name \"$(date +'%a %b %d %H:%M %Y')\"; sleep 60; done", NULL,
+	"picom", NULL,
+	"dunst", NULL,
 	NULL /* terminate */
 };
 
