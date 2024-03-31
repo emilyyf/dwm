@@ -89,6 +89,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon,
 	"-shf", col_gray4,
 	"-l", "6",
 	"-c",
+	"-i",
 	NULL };
 static const char *termcmd[]  = { "st", NULL };
 
