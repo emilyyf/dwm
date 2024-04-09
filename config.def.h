@@ -50,8 +50,8 @@ static const Rule rules[] = {
 	{ "thunderbird",       NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "tutanota-desktop",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Carla2",            NULL,       NULL,       1 << 7,       0,           -1 },
-	{ "telegram-desktop",  NULL,       NULL,       1,            0,            1 },
-	{ "discord",           NULL,       NULL,       1,            0,            1 },
+	{ "TelegramDesktop",   NULL,       NULL,       1,            0,            2 },
+	{ "discord",           NULL,       NULL,       1,            0,            2 },
 };
 
 /* layout(s) */
