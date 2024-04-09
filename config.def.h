@@ -16,7 +16,7 @@ static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#24273a";
 static const char col_gray2[]       = "#b7bdf8";
 static const char col_gray3[]       = "#b8c0e0";
-static const char col_gray4[]       = "#cad3f5";
+static const char col_gray4[]       = "#363a4f";
 static const char col_cyan[]        = "#f5bde6";
 
 static const char *colors[][3]      = {
@@ -84,7 +84,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon,
 	"-i",
 	NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *spectaclecmd[] = { "spectatle", "-r", NULL };
+static const char *spectaclecmd[] = { "spectacle", "-r", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
