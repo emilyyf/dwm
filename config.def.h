@@ -25,13 +25,15 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
 
+// TODO: lots of this should be moved to something like .xinit or .xsession
 static const char *const autostart[] = {
 	"sh", "-c", "/home/emily/.fehbg", NULL,
 	"setxkbmap", "-option", "compose:ralt", NULL,
 	"xset", "s", "off", NULL,
 	"xset", "-dpms", NULL,
 	"xinput", "set-prop", "8", "libinput Accel Profile Enabled", "0", "1", "0", NULL,
-	"sh", "-c", "while :; do xsetroot -name \"$(date +'%a %b %d %H:%M %Y')\"; sleep 60; done", NULL,
+	"xinput", "set-prop", "8", "libinput Middle Emulation Enabled", "0", NULL,
+	"goroot",
 	"picom", NULL,
 	"dunst", NULL,
 	NULL /* terminate */
