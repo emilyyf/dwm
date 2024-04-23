@@ -87,7 +87,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon,
 	NULL };
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *spectaclecmd[] = { "spectacle", "-r", NULL };
-static const char *scrotcmd[] = { "scrot", "-s", "-f", "$HOME/Pictures/Screenshots/%Y-%m-%d_%H.%M.%S.png", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
+static const char *scrotcmd[] = { "scrot", "-s", "-f", "home/emily/Pictures/Screenshots/%Y-%m-%d_%H.%M.%S.png", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
